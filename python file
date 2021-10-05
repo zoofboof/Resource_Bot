@@ -1,0 +1,306 @@
+import time
+import pyautogui
+import random
+
+fight = "#!adv"
+forage = "#!forage"
+mine = "#!mine"
+chop = "#!chop"
+fish = "#!fish"
+search = "#!search"
+sell_lemons = "#!sell lemon all"
+sell_logs = "#!sell log all"
+sell_rocks = "#!sell rock all"
+location = pyautogui.click(x=415, y=998)
+inventory = "#!inv"
+stats = "#!stats"
+attributes = "#!attributes"
+gp_transfer = "#!Donate @zoofboof all"
+
+
+#time.sleep(3)
+#print(pyautogui.position())
+
+def gathering():
+    location
+
+    pyautogui.typewrite(forage)
+    time.sleep(random.random())
+    time.sleep(random.random())
+    pyautogui.press('enter')
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+
+
+    pyautogui.typewrite(mine)
+    time.sleep(random.random())
+    time.sleep(random.random())
+    pyautogui.press('enter')
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+
+
+    pyautogui.typewrite(chop)
+    time.sleep(random.random())
+    time.sleep(random.random())
+    pyautogui.press('enter')
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+
+
+    pyautogui.typewrite(fish)
+    time.sleep(random.random())
+    time.sleep(random.random())
+    pyautogui.press('enter')
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+
+
+    pyautogui.typewrite(search)
+    time.sleep(random.random())
+    time.sleep(random.random())
+    pyautogui.press('enter')
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+
+
+
+    time.sleep(300)
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+
+    pyautogui.typewrite(forage)
+    time.sleep(random.random())
+    time.sleep(random.random())
+    pyautogui.press('enter')
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+
+
+    pyautogui.typewrite(mine)
+    time.sleep(random.random())
+    time.sleep(random.random())
+    pyautogui.press('enter')
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+
+
+    pyautogui.typewrite(chop)
+    time.sleep(random.random())
+    time.sleep(random.random())
+    pyautogui.press('enter')
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+
+
+    pyautogui.typewrite(fish)
+    pyautogui.press('enter')
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+
+    time.sleep(300)
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+
+def sell_resources():
+    location
+
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    pyautogui.typewrite(sell_rocks)
+    time.sleep(random.random())
+    time.sleep(random.random())
+    pyautogui.press('enter')
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+
+    time.sleep(10)
+
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    pyautogui.typewrite(sell_logs)
+    time.sleep(random.random())
+    time.sleep(random.random())
+    pyautogui.press('enter')
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(10)
+
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    pyautogui.typewrite(sell_lemons)
+    time.sleep(random.random())
+    time.sleep(random.random())
+    pyautogui.press('enter')
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(10)
+
+def check_stats():
+    location
+
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    pyautogui.typewrite(inventory)
+    time.sleep(random.random())
+    time.sleep(random.random())
+    pyautogui.press('enter')
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    pyautogui.typewrite(stats)
+    time.sleep(random.random())
+    time.sleep(random.random())
+    pyautogui.press('enter')
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    pyautogui.typewrite(attributes)
+    time.sleep(random.random())
+    time.sleep(random.random())
+    pyautogui.press('enter')
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+
+def send_gold():
+    location
+
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    pyautogui.typewrite(gp_transfer)
+    time.sleep(random.random())
+    time.sleep(random.random())
+    pyautogui.press('enter')
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+
+n = 1
+
+while n == 1:
+    location
+    gathering()
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    gathering()
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    gathering()
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    gathering()
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    check_stats()
+    time.sleep(random.random())
+    time.sleep(random.random())
+    location
+    time.sleep(random.random())
+    time.sleep(random.random())
+    gathering()
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    gathering()
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    sell_resources()
+    time.sleep(random.random())
+    time.sleep(random.random())
+    location
+    time.sleep(random.random())
+    time.sleep(random.random())
+    check_stats()
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    send_gold()
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
+    time.sleep(random.random())
