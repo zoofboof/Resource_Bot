@@ -1,0 +1,177 @@
+import time
+import pyautogui
+import random
+
+fight = "#!adv"
+forage = "#!forage"
+mine = "#!mine"
+chop = "#!chop"
+fish = "#!fish"
+search = "#!search"
+sell_lemons = "#!sell lemon all"
+sell_logs = "#!sell log all"
+sell_rocks = "#!sell rock all"
+location = pyautogui.click(x=415, y=998)
+inventory = "#!inv"
+stats = "#!stats"
+attributes = "#!attributes"
+gp_transfer = "#!Donate @zoofboof all"
+
+
+#time.sleep(3)
+#print(pyautogui.position())
+
+def random_time():
+    count = random.randint(2, 4)
+    rmax = random.randint(1, 8)
+
+    for r in range(count):
+        time.sleep(random.randint(1, rmax))
+
+
+def gathering():
+    location
+
+    pyautogui.write(forage, interval=0.25)
+    random_time()
+    pyautogui.press('enter')
+    random_time()
+
+
+    pyautogui.write(mine, interval=0.25)
+    random_time()
+    pyautogui.press('enter')
+    random_time()
+
+
+    pyautogui.write(chop, interval=0.25)
+    random_time()
+    pyautogui.press('enter')
+    random_time()
+
+
+    pyautogui.write(fish, interval=0.25)
+    random_time()
+    pyautogui.press('enter')
+    random_time()
+
+
+    pyautogui.write(search, interval=0.25)
+    random_time()
+    pyautogui.press('enter')
+    random_time()
+
+
+    time.sleep(300)
+    random_time()
+
+    pyautogui.write(forage, interval=0.25)
+    random_time()
+    pyautogui.press('enter')
+    random_time()
+
+
+    pyautogui.write(mine, interval=0.25)
+    random_time()
+    pyautogui.press('enter')
+    random_time()
+
+
+    pyautogui.write(chop, interval=0.25)
+    random_time()
+    pyautogui.press('enter')
+    random_time()
+
+
+    pyautogui.write(fish, interval=0.25)
+    random_time()
+    pyautogui.press('enter')
+    random_time()
+
+    time.sleep(300)
+    random_time()
+
+def sell_resources():
+    location
+
+    random_time()
+    pyautogui.write(sell_rocks, interval=0.25)
+    random_time()
+    pyautogui.press('enter')
+    random_time()
+
+    time.sleep(10)
+
+    random_time()
+    pyautogui.write(sell_logs, interval=0.25)
+    random_time()
+    pyautogui.press('enter')
+    random_time()
+    time.sleep(10)
+
+    random_time()
+    pyautogui.write(sell_lemons, interval=0.25)
+    random_time()
+    pyautogui.press('enter')
+    random_time()
+    time.sleep(10)
+
+def check_stats():
+    location
+
+    random_time()
+    pyautogui.write(inventory, interval=0.25)
+    random_time()
+    pyautogui.press('enter')
+    random_time()
+
+    random_time()
+    pyautogui.write(stats, interval=0.25)
+    random_time()
+    pyautogui.press('enter')
+    random_time()
+
+    random_time()
+    pyautogui.write(attributes, interval=0.25)
+    random_time()
+    pyautogui.press('enter')
+    random_time()
+
+def send_gold():
+    location
+
+    random_time()
+    pyautogui.write(gp_transfer, interval=0.25)
+    random_time()
+    pyautogui.press('enter')
+    random_time()
+
+
+n = 1
+
+while n == 1:
+    location
+    gathering()
+    random_time()
+    gathering()
+    random_time()
+    gathering()
+    random_time()
+    gathering()
+    random_time()
+    check_stats()
+    random_time()
+    location
+    random_time()
+    gathering()
+    random_time()
+    gathering()
+    random_time()
+    sell_resources()
+    random_time()
+    location
+    random_time()
+    check_stats()
+    random_time()
+    send_gold()
+    random_time()
