@@ -1,6 +1,10 @@
+## Import Modules ##
+
 import time
 import pyautogui
 import random
+
+## Define input variables ##
 
 fight = "#!adv"
 forage = "#!forage"
@@ -17,9 +21,12 @@ stats = "#!stats"
 attributes = "#!attributes"
 gp_transfer = "#!Donate @zoofboof all"
 
+## Remove "#" to find the location of the cursor after 3 seconds. Set this value as the home position ##
 
 #time.sleep(3)
 #print(pyautogui.position())
+
+## A function for generating highly random pause times ##
 
 def random_time():
     count = random.randint(2, 4)
@@ -28,6 +35,7 @@ def random_time():
     for r in range(count):
         time.sleep(random.randint(1, rmax))
 
+## Functions for entering commands to play the game in a realistic way ##
 
 def gathering():
     location
@@ -146,6 +154,7 @@ def send_gold():
     pyautogui.press('enter')
     random_time()
 
+## Generating an infinite loop of actions to play the game automatically while you are away ##
 
 n = 1
 
